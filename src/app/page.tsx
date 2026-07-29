@@ -107,7 +107,7 @@ export default function Home() {
 
         <div>
          <label style={{ display: 'block', fontWeight: 'bold' }}>Servicio:</label>
-          <select value={selectedService} onChange={(e) => setSelectedService(e.target.value)} style={{ width: '100%', padding: '0.5rem', color: 'black' }} required>
+          <select value={selectedService} onChange={(e) => setSelectedService(e.target.value)} style={{ width: '100%', padding: '0.5rem', }} required>
             <option value="">Selecciona un servicio</option>
             <option value="Corte de Cabello">Prueba 1 - $200 (30 min)</option>
             <option value="Corte y Barba">Prueba 2 - $300 (45 min)</option>
