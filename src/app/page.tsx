@@ -107,12 +107,12 @@ export default function Home() {
 
         <div>
          <label style={{ display: 'block', fontWeight: 'bold' }}>Servicio:</label>
-          <select value={selectedService} onChange={(e) => setSelectedService(e.target.value)} style={{ width: '100%', padding: '0.5rem' }} required>
+          <select value={selectedService} onChange={(e) => setSelectedService(e.target.value)} style={{ width: '100%', padding: '0.5rem', color: 'black' }} required>
             <option value="">Selecciona un servicio</option>
-            <option value="Corte de Cabello">prubea xd - $200 (30 min)</option>
-            <option value="Corte y Barba">dennis tonto - $300 (45 min)</option>
-            <option value="Perfilado de Barba">Perfilado de Barba - $150 (20 min)</option>
-            <option value="Tinte / Color">Tinte / Color - $400 (60 min)</option>
+            <option value="Corte de Cabello">Prueba 1 - $200 (30 min)</option>
+            <option value="Corte y Barba">Prueba 2 - $300 (45 min)</option>
+            <option value="Perfilado de Barba">Prueba 3 - $150 (20 min)</option>
+            <option value="Tinte / Color">Prueba 4 - $400 (60 min)</option>
           </select>
         </div>
 
